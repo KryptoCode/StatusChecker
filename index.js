@@ -179,7 +179,7 @@ window.onload = function() {
 				}).join('');
 
 				var emailLink = '<tr><td><a href="mailto:' + item.email + '?Subject=Status%20Request%20' + todayDate + '&body=Please%20send%20Status%20on%20the%20following%20loads%0D' + list + '">' + item.name + '</a></td></tr>';
-			return document.getElementById("reqResults").innerHTML += emailLink;
+			return document.getElementById("reqResults").innerHTML +=  emailLink;
 
 	});
 			console.log(contactArr);

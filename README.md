@@ -2,7 +2,7 @@
 
 ![screenshot_statuscheck](https://cloud.githubusercontent.com/assets/7362161/12534365/b9e8ccc8-c20a-11e5-968b-c82a317e7f6c.png)
 
-### https://github.com/KryptoCode/StatusChecker.git
+### https://github.com/REDedits/StatusChecker.git
 
 
 Developed for the purpose of creating a email request list for reference numbers.

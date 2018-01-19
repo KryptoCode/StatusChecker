@@ -4,19 +4,19 @@
 <title>Watch Log</title>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<link rel="stylesheet" href="statuschecker.css"> 
+<link rel="stylesheet" href="main.css">
 </head>
 <body>
-
+<div id="logoBrand"><img src="/images/statuschecker.png" /></div>
   <div id="requestContainer">
     <div id="leftCol">
 	    <label>Request</label><br />
-	    <textarea name="requestArea" id="logInput" placeholder="Example: 123456 Reference Name"></textarea>
+	    <textarea spellcheck="false" name="requestArea" id="logInput" placeholder="Example: 123456 Reference Name"></textarea>
     </div>
     <div id="rightCol">
       <label>Update Status</label><br />
-      <textarea name="loadNumArea" id="loadInput" placeholder="Load Number"></textarea>
-      <textarea name="statusArea" id="statusInput" placeholder="Status Update"></textarea><br />
+      <textarea spellcheck="false" name="loadNumArea" id="loadInput" placeholder="Load Number"></textarea>
+      <textarea spellcheck="false" name="statusArea" id="statusInput" placeholder="Status Update"></textarea><br />
     </div>
 	  	<button id="subBtn">SUBMIT FOR REQUEST</button>
       <button id="saveBtn">SAVE</button>
@@ -25,23 +25,26 @@
   </div>
   <div id="addContact" class="addFormDiv">
     <label for="name">Name</label><br />
-    <input type="text" id="name" class="addField" placeholder="Enter Name here"><br /><br />
+    <input spellcheck="false" type="text" id="name" class="addField" placeholder="Enter Name here"><br /><br />
     <label for="email">Email Addresses</label><br />
-    <input type="text" id="email" class="addField" placeholder="semicolon (;) seperated"><br />
+    <input spellcheck="false" type="text" id="email" class="addField" placeholder="semicolon (;) seperated"><br />
     <button id="addBtn">Add</button><button id="cancelBtn">Cancel</button>
   </div>
   <div id="listContacts">
   </div>
   <div id="resultsContainer">
-  	<table id="reqResults">
-  		<tr>
-  			<th class="hidden">Carrier</th>
-  		</tr>
+  	<table>
+        <tr>
+            <th class="hidden">Carrier</th>
+        </tr>
+        <tbody id="reqResults">
+
+        </tbody>
   	</table>
   </div>
 
 
-<script src="logcomposerv2.js"></script>
+<script src="index.js"></script>
 
 
 </body>
