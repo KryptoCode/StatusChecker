@@ -1,6 +1,6 @@
 # Status Checker
 
-![screenshot_statuscheck](https://cloud.githubusercontent.com/assets/7362161/12534365/b9e8ccc8-c20a-11e5-968b-c82a317e7f6c.png)
+![screenshot_statuscheck](https://github.com/REDedits/StatusChecker/blob/master/images/statuschecker_screenshot.png?raw=true)
 
 ### https://github.com/REDedits/StatusChecker.git
 
@@ -24,5 +24,3 @@ Once you recieve an answer to your request you can save it and store it in local
 #### Saving Status is currently a limited use case feature. It was developed for use in a Logistics office to help track loads that have been marked delivered or empty. The plan is to expand this section in the future to make it more customizable.
 
 **Refresh Button** *will clear all the fields and reload the page, as will adding a new contact or clicking the cancel button.*
-
-![screenshot_action_result](https://cloud.githubusercontent.com/assets/7362161/12534310/a6b1b8c0-c207-11e5-9055-11e561aaad3b.png)
